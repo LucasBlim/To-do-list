@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body{
+    margin: 0;
+    font-family:"Madimi One", sans-serif;
+}
+
+header{
+    background-color: #a35858;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+header h1{
+    width: 100%;
+    text-align: center;
+}
+
+header input{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 60%;
+    font-size: 18px;
+}
+
+header span{
+    padding-left: 10px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+ul{
+    margin: 0; padding: 0;
+}
+
+ul li{
+    cursor: pointer;
+    padding: 10px 0;
+    list-style-type: none;
+    font-size: 18px;
+    display: flex;
+    transition: 0.3s;
+    align-items: center;
+}
+
+ul li:nth-child(odd){background-color: beige;}
+ul li:hover{background-color: brown;}
+ul li span{width: 80%;}
+ul li i{width: 10%; text-align: center;}
+.close{color: #f03333}
+
